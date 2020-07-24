@@ -1,0 +1,15 @@
+{
+  "name": "fan-sync",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Max Schäfer",
+  "license": "MIT",
+  "dependencies": {
+    "rpi-433-v2": "^1.0.3",
+    "tuyapi": "github:codetheweb/tuyapi"
+  }
+}
