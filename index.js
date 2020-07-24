@@ -35,6 +35,7 @@ tuyaDevice.on('connected', () => {
 
 tuyaDevice.on('disconnected', () => {
     console.log('Disconnected from tuya device!');
+    lookupTuyaDevice();
 });
 
 tuyaDevice.on('error', (err) => {
